@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_v3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>VIZIQ - Визитка для компании</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    
+    <!-- Для современных браузеров (PNG) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    
+    <!-- Для Apple устройства (iPhone, iPad) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+    
+    <!-- Для Android/Chrome -->
+    <link rel="manifest" href="logo.png">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row vw-25" id="header-fon">
+            <div class="col-4 col-md-4 col-lg-2 p-4">
+                <img src="logo.png" alt="Логотип" class="img-fluid" id="logo">
+            </div>
+            <div class="col-5 col-md-5 col-lg-7 text-end ">
+                <a href="Main-Page.html" class="text-decoration-none text-white p-3"><span><b>На главную</b></span></a>
+                <a href="profile-Page.html" class="text-decoration-none text-white p-3"><span><b>Профиль</b></span></a>
+            </div>
+            <div class="col-3 col-md-3 col-3" >
+                <img src="avatar.png" alt="Фото" class="img-fluid" id="avatar">
+                <span class="text-white"><b>Гия Р.О.</b></span>
+            </div>
+        </div>
+        <div class="row vw-25">
+            
+            <div class="col-12 text-center p-5">
+                <h1>Настройки визитки</h1>
+            </div>
+        </div>
+        <div class="row p-3">
+            
+            <div class="col-12 col-md-10 col-lg-5 p-4 justify-content-center" id="left-info">
+                <div class="row text-center justify-content-center">
+                    <div class="col-6 col-md-6 col-lg-6  p-2">
+                        <button class="btn btn-primary" id="save"><b>Сохранить изменения</b></button>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-6  p-2">
+                        <button class="btn btn-primary" id="reset"><b>Сбросить изменения</b></button>
+                    </div>
+                </div>
+                    
+                <div class="row">
+                    <div class="col-4 col-lg-4 align-item-start">
+                        <img src="avatar.png" class="img-fluid rounded-circle" id="vizitAvatar" alt="Фото">
+                    </div>
+                    <div class="col-8 col-lg-8">
+                        
+                        <div class="mb-3">
+                            <label for="campaignName" class="form-label">Компания</label>
+                            <input type="text" class="form-control" placeholder="Введите название компании" id="campaignName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="work" class="form-label">Главный офис</label>
+                            <input type="text" class="form-control" placeholder="Введите адрес главного офиса" id="office">
+                        </div>
+                        <div class="mb-3">
+                            <label for="hot_line" class="form-label">Номер горячей линии</label>
+                            <input type="tel" class="form-control" placeholder="Введите номер горячей линии" id="hot_line">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 col-md-1 col-lg-1 p-1 align-self-center"><h1></h1></div>
+            <div class="col-12 col-md-10 col-lg-6 p-4 justify-content-center justify-self-right" id="right-info">
+                <div class="row text-center justify-content-center">
+                    <div class="col-6 col-md-6 col-lg-6  p-2">
+                        <button class="btn btn-primary" id="save2"><b>Сохранить изменения</b></button>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-6  p-2">
+                        <button class="btn btn-primary" id="reset2"><b>Сбросить изменения</b></button>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="campaignName" class="form-label">Название компании:</label>
+                    <input type="text" class="form-control" placeholder="Введите название компании" id="campaignName">
+                </div>
+                <div class="mb-3">
+                    <label for="hot_line" class="form-label">Номер горячей линии</label>
+                    <input type="tel" class="form-control" placeholder="Введите номер горячей линии" id="hot_line">
+                </div>
+                <div class="mb-3">
+                    <label for="naprav" class="form-label">Направление компании:</label>
+                    <input type="text" class="form-control" placeholder="Введите название" id="naprav">
+                </div>
+                <div class="mb-3">
+                    <label for="PhoneNumber" class="form-label">Доп. сведения</label>
+                    <input type="text" class="form-control" placeholder="Введите доп. информацию" id="sved">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

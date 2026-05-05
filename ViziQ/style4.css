@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    background-color: aliceblue;
+}
+
+/* Скрываем телефон на мобильных */
+@media (max-width: 768px) {
+    #bigPhone {
+        display: none;
+    }
+}
+
+/* Эффекты для кнопок */
+.btn-primary {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+}
+
+/* Картинки в блоках преимуществ */
+.img-fluid {
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.03);
+}

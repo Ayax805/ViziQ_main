@@ -1,0 +1,392 @@
+.BodyZone
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff) ;
+    margin: 0%;
+}
+.BodyZone .WhiteZone
+{
+    align-self: center;
+    align-content: center;
+    background-color:aliceblue;
+    width: 768px;
+    height: 480px;
+    bottom: -120px;
+    left: 330px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px black ;
+    /*Спиздил*/
+    overflow: hidden;
+    /*Вход*/
+}
+.BodyZone .WhiteZone #Ent
+{
+    width: 100%;
+    height: 100%;
+    /*Спиздил*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.6s ease-in-out;
+    background-color: aliceblue;
+}
+.BodyZone .WhiteZone #Ent .EnterW
+{
+    position: relative;
+    bottom: 15px;
+    width: 384px;
+    height: 480px;
+    align-content: center;
+    top: 3%;
+}
+.BodyZone .WhiteZone #Ent .EnterW #h1
+{
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    font-size: 35px;
+    font-family: 'Semi Bold';
+    color:black;
+}
+.BodyZone .WhiteZone #Ent .EnterW #form
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 50px;
+    width: 274px;
+    height: 40px;
+    border-radius: 15px;
+}
+.BodyZone .WhiteZone #Ent .EnterW #formEm
+{
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;    
+    width: 270px;
+    height: 40px;
+}
+.BodyZone .WhiteZone #Ent .EnterW #formPas
+{
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;
+    width: 270px;
+    height: 40px;
+}
+.BodyZone .WhiteZone #Ent .EnterW #pasBtn
+{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Semi Bold';
+    color:black;
+    bottom: 8%;
+    left: 35%;
+    cursor: pointer;
+}
+.BodyZone .WhiteZone #Ent .EnterW #pasBtn:hover
+{
+    color: brown;
+}
+.BodyZone .WhiteZone #Ent .EnterW #EntBtn
+{
+    font-size: 25px;
+    font-family: 'Semi Bold';
+    color: aliceblue;
+    width: 140px;
+    height: 40px;
+    position: relative;
+    top: 10%;
+    right: -10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.BodyZone .WhiteZone #Ent .EnterW #EntBtn #img
+{
+    width: 140px;
+    height: 40px;
+    position: relative;
+    bottom: 3px;
+    left: -7.5px;
+}
+.BodyZone .WhiteZone #Ent .EnterW #EntBtn #text
+{
+    color: aliceblue;
+    position: relative;
+    bottom: 45px;
+    font-size: 20px;
+    font-family: 'Semi Bold';
+}
+.BodyZone .WhiteZone #Ent .BlueZoneReg
+{
+    background: linear-gradient(to right,#2E3C88,#0F5AF0, #5069EE);
+    width: 400px;
+    height: 480px;
+    align-content: center;
+    position: relative;
+    left: 48%;
+    bottom: 100%;
+    border-radius: 5.2%;
+}
+.BodyZone .WhiteZone #Ent .BlueZoneReg .textBlue p
+{
+    position: relative;
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Semi Bold';
+    left: 13%;
+    color: aliceblue;
+}
+.BodyZone .WhiteZone #Ent .BlueZoneReg #regBtn
+{
+    font-size: 20px;
+    font-family: 'Semi Bold';
+    align-items: center;
+    color: aliceblue;
+    background: linear-gradient(to right,#2E3C88,#0F5AF0, #5069EE);
+    width: 200px;
+    height: 45px;
+    position: relative;
+    top: 7%;
+    left: 25%;
+    border: 2px solid #e2e2e2;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/*Регистрация*/
+.BodyZone .WhiteZone #Reg
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*спиздил*/
+    top: 0;
+    left: 0;
+    transition: all 0.6s ease-in-out;
+    background-color: aliceblue;
+}
+.BodyZone .WhiteZone #Reg .RegW
+{
+    position: relative;
+    bottom: 15px;
+    width: 384px;
+    height: 480px;
+    align-content: center;
+    bottom: 3%;
+}
+.BodyZone .WhiteZone #Reg .RegW #h1
+{
+    position: absolute;
+    top: 7%;
+    left: 25%;
+    font-size: 35px;
+    font-family: 'Semi Bold';
+    color:black;
+}
+.BodyZone .WhiteZone #Reg .RegW #form
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 50px;
+    width: 274px;
+    height: 40px;
+    border-radius: 15px;
+}
+.BodyZone .WhiteZone #Reg .RegW #formUs
+{
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;    
+    width: 270px;
+    height: 40px;
+}
+.BodyZone .WhiteZone #Reg .RegW #formEm
+{
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;    
+    width: 270px;
+    height: 40px;
+}
+.BodyZone .WhiteZone #Reg .RegW #formPas
+{
+    background-color: lightgray;
+    border: none;
+    border-radius: 15px;
+    width: 270px;
+    height: 40px;
+}
+.BodyZone .WhiteZone #Reg .RegW #pasBtn
+{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Semi Bold';
+    color:black;
+    bottom: 8%;
+    left: 35%;
+    cursor: pointer;
+}
+.BodyZone .WhiteZone #Reg .RegW #pasBtn:hover
+{
+    color: brown;
+}
+.BodyZone .WhiteZone #Reg .RegW #RegBtn
+{
+    font-size: 25px;
+    font-family: 'Semi Bold';
+    color: aliceblue;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.BodyZone .WhiteZone #Reg .RegW #RegBtn #img
+{
+    width: 200px;
+    height: 40px;
+    position: relative;
+    bottom: 3px;
+    left: -7.5px;
+}
+.BodyZone .WhiteZone #Reg .RegW #RegBtn #text
+{
+    color: aliceblue;
+    position: relative;
+    bottom: 45px;
+    font-size: 20px;
+    font-family: 'Semi Bold';
+}
+.BodyZone .WhiteZone #Reg .BlueZoneEnt
+{
+    background: linear-gradient(to right,#2E3C88,#0F5AF0, #5069EE);
+    width: 400px;
+    height: 480px;
+    align-content: center;
+    position: relative;
+    left: -48%;
+    bottom: 100%;
+    border-radius: 5.2%;
+    /*Спиздил*/
+    transition: all 0.6s ease-in-out;
+}
+.BodyZone .WhiteZone #Reg .BlueZoneEnt .textBlue p
+{
+    position: relative;
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Semi Bold';
+    left: 13%;
+    color: aliceblue;
+}
+.BodyZone .WhiteZone #Reg .BlueZoneEnt #EntBtnFromReg
+{
+    font-size: 20px;
+    font-family: 'Semi Bold';
+    align-items: center;
+    color: aliceblue;
+    background: linear-gradient(to right,#2E3C88,#0F5AF0, #5069EE);
+    width: 200px;
+    height: 45px;
+    position: relative;
+    top: 7%;
+    left: 25%;
+    border: 2px solid #e2e2e2;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/*Спиздил*/
+/* ПК - горизонтальный сдвиг */
+@media (min-width: 769px) 
+{
+    .BodyZone .WhiteZone #Ent,
+    .BodyZone .WhiteZone #Reg
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.6s ease-in-out;
+        background-color: aliceblue;
+    }
+    
+    .BodyZone .WhiteZone #Ent {
+        transform: translateX(0);
+        z-index: 2;
+    }
+    .BodyZone .WhiteZone #Reg {
+        transform: translateX(100%);
+        z-index: 1;
+    }
+    .BodyZone .WhiteZone.active #Ent {
+        transform: translateX(-100%);
+        z-index: 1;
+    }
+    .BodyZone .WhiteZone.active #Reg {
+        transform: translateX(0);
+        z-index: 2;
+    }
+    
+    /* ФИКС ДЛЯ СИНИХ ЗОН */
+    .BodyZone .WhiteZone #Ent .BlueZoneReg
+    {
+        position: absolute;
+        right: 0;
+        top: 0;
+        left: auto;
+        width: 400px;
+        height: 480px;
+        
+    }
+    
+    .BodyZone .WhiteZone #Reg .BlueZoneEnt
+    {
+        position: absolute;
+        left: 100%;
+        top: 0;
+        width: 400px;
+        height: 480px;
+        transition: left 0.6s ease-in-out;
+    }
+    
+    .BodyZone .WhiteZone.active #Reg .BlueZoneEnt
+    {
+        left: 50%;
+    }
+}
+
+/* Мобильные - вертикальный сдвиг */
+@media (max-width: 768px)
+{
+    .BodyZone .WhiteZone #Ent {
+        transform: translateY(0);
+        z-index: 2;
+    }
+    .BodyZone .WhiteZone #Reg {
+        transform: translateY(100%);
+        z-index: 1;
+    }
+    .BodyZone .WhiteZone.active #Ent {
+        transform: translateY(-100%);
+        z-index: 1;
+    }
+    .BodyZone .WhiteZone.active #Reg {
+        transform: translateY(0);
+        z-index: 2;
+    }
+}

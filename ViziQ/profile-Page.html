@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIZIQ - Мой Профиль</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style_profile.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    
+    <!-- Для современных браузеров (PNG) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    
+    <!-- Для Apple устройства (iPhone, iPad) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+    
+    <!-- Для Android/Chrome -->
+    <link rel="manifest" href="logo.png">
+</head>
+<body>
+    <div class="container-fluid p-0 min-vh-100 bg-light">
+        
+        <div class="row g-0 align-items-center px-4 py-3" id="header-fon" 
+            style="background: linear-gradient(to right, #7900E9, #3F42D4, #374BD1); border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+            <div class="col-4 col-md-2">
+                <img src="logo.png" alt="Логотип" class="img-fluid" style="max-width: 100px;">
+            </div>
+            <div class="col-4 col-md-7 text-center">
+                <a href="Main-Page.html" class="text-decoration-none text-white mx-3 d-none d-md-inline"><b>На главную</b></a>
+                <a href="choice.html" class="text-decoration-none text-white mx-3 d-none d-md-inline"><b>Шаблоны</b></a>
+            </div>
+            <div class="col-4 col-md-3 text-end d-flex align-items-center justify-content-end">
+                <span class="text-white me-2 d-none d-sm-inline"><b>Гия Р.О.</b></span>
+                <img src="avatar.png" alt="Фото" class="rounded-circle" style="width: 45px; height: 45px; object-fit: cover; border: 2px solid white;">
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h2 class="fw-bold">Ваши визитки</h2>
+                    <p class="text-muted">Управляйте своими цифровыми контактами</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden card-vcard">
+                        <div class="card-body p-0">
+                            <img src="Rectangle 17.png" class="img-fluid w-100" alt="Визитка">
+                            <div class="p-3">
+                                <h5 class="fw-bold mb-1">Рабочая визитка</h5>
+                                <p class="small text-muted mb-0">Создана: 12.04.2026</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden card-vcard">
+                        <div class="card-body p-0">
+                            <img src="Rectangle 17.png" class="img-fluid w-100" alt="Визитка">
+                            <div class="p-3">
+                                <h5 class="fw-bold mb-1">Личная (QR)</h5>
+                                <p class="small text-muted mb-0">Создана: 01.05.2026</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <a href="choice.html" class="text-decoration-none h-100">
+                        <div class="add-vcard-zone d-flex flex-column justify-content-center align-items-center rounded-4 h-100">
+                            <div class="plus-circle mb-3">
+                                <span class="plus-icon">+</span>
+                            </div>
+                            <span class="fw-bold text-primary">Создать новую</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const create_link=document.getElementById('create')
+    create_link.onclick = () =>  window.location='choice.html'
+</script>
+</html>

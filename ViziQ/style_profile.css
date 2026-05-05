@@ -1,0 +1,61 @@
+/* Основные настройки */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Эффект при наведении на готовую визитку */
+.card-vcard {
+    transition: transform 0.3s ease, shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.card-vcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Зона создания новой визитки */
+.add-vcard-zone {
+    border: 3px dashed #3F42D4; /* Пунктирная линия */
+    background-color: rgba(63, 66, 212, 0.05);
+    min-height: 250px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.add-vcard-zone:hover {
+    background-color: rgba(63, 66, 212, 0.1);
+    border-color: #7900E9;
+}
+
+/* Круг с плюсом */
+.plus-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #7900E9, #3F42D4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(63, 66, 212, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.plus-icon {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.add-vcard-zone:hover .plus-circle {
+    transform: scale(1.1);
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 576px) {
+    .add-vcard-zone {
+        min-height: 180px;
+    }
+}

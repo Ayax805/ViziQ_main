@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style4.css">
+    <title>VIZIQ - Основная страница</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    
+    <!-- Для современных браузеров (PNG) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+    
+    <!-- Для Apple устройства (iPhone, iPad) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+    
+    <!-- Для Android/Chrome -->
+    <link rel="manifest" href="logo.png">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <div class="container-fluid p-0">
+        <!-- ШАПКА (Hero секция) -->
+        <div class="row g-0" style="background: linear-gradient(to right, #7900E9, #3F42D4, #374BD1); border-bottom-left-radius: 5vw; border-bottom-right-radius: 5vw;">
+            
+            <!-- Левая колонка с текстом -->
+            <div class="col-12 col-lg-6 text-center text-lg-start px-4 px-md-5 py-4">
+                <img src="logo.png" class="img-fluid mb-3" style="max-width: 120px;">
+                <h1 class="text-white fw-bold" style="font-size: clamp(1.8rem, 5vw, 2.5rem);">
+                    Создай свою<br>цифровую визитку<br>за 30 секунд
+                </h1>
+                <p class="text-white mt-3" style="font-size: clamp(0.9rem, 3vw, 1.2rem);">
+                    Делись контактами через <b>QR</b> или ссылку
+                </p>
+                <button class="btn btn-primary rounded-pill px-4 py-2 mt-3" id="create"
+                        style="background-color: #637dff; border: none; font-size: clamp(0.9rem, 3vw, 1.2rem);">
+                    <b>Создать бесплатно</b>
+                </button>
+            </div>
+            
+            <!-- Правая колонка с картинкой телефона -->
+            <div class="col-12 col-lg-6 text-center position-relative">
+                <div class="d-flex justify-content-end pe-4 pt-3 gap-3">
+                    <a href="profile-Page.html" class="text-white text-decoration-none" id="prof" style="font-size: clamp(0.8rem, 2vw, 1.2rem);">
+                        <b>Профиль</b>
+                    </a>
+                    <button class="btn btn-primary rounded-pill px-3 py-1" id="reg"
+                            style="background-color: #637dff; border: none; font-size: clamp(0.7rem, 2vw, 1rem);">
+                        <b>Регистрация/Вход</b>
+                    </button>
+                </div>
+                <img src="bigPhone.png" class="img-fluid mt-3 mt-lg-0" id="bigPhone" 
+                    style="max-width: 80%; height: auto;">
+            </div>
+        </div>
+
+        <!-- Блок ПРЕИМУЩЕСТВА -->
+        <div class="container py-5">
+            <h2 class="text-center fw-bold mb-5" style="font-size: clamp(1.5rem, 4vw, 2rem);">
+                Преимущества VIZIQ
+            </h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-6 col-md-3 text-center">
+                    <img src="преимушество 5.png" class="img-fluid w-75">
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="преимушество 6.png" class="img-fluid w-75">
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="преимушество 9.png" class="img-fluid w-75">
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="преимушество 4.png" class="img-fluid w-75">
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок КАК ЭТО РАБОТАЕТ -->
+        <div class="container py-5 bg-light rounded-4">
+            <h2 class="text-center fw-bold mb-5" style="font-size: clamp(1.5rem, 4vw, 2rem);">
+                Как это работает?
+            </h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="пример 1.png" class="img-fluid w-75">
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <img src="пример 2.png" class="img-fluid w-75">
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <img src="пример 3.png" class="img-fluid w-75">
+                </div>
+            </div>
+        </div>
+
+        <!-- Блок ПРИМЕРЫ ВИЗИТОК -->
+        <div class="container py-5">
+            <h2 class="text-center fw-bold mb-5" style="font-size: clamp(1.5rem, 4vw, 2rem);">
+                Примеры цифровых визиток
+            </h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="Rectangle 17.png" class="img-fluid rounded-4 shadow">
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <img src="Rectangle 17.png" class="img-fluid rounded-4 shadow">
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <img src="Rectangle 17.png" class="img-fluid rounded-4 shadow">
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA БЛОК -->
+        <div class="container py-5 text-center">
+            <p class="fw-bold mb-3" style="font-size: clamp(1rem, 4vw, 1.5rem);">
+                Готов создать цифровую визитку?
+            </p>
+            <button class="btn btn-primary rounded-pill px-5 py-2" id="bta"
+                    style="background-color: #637dff; border: none; font-size: clamp(0.9rem, 3vw, 1.2rem);">
+                <b>Создать бесплатно</b>
+            </button>
+        </div>
+
+        <!-- ПОДВАЛ -->
+        <div class="row g-0" style="background: linear-gradient(to right, #7900E9, #3F42D4, #374BD1); border-top-left-radius: 5vw; border-top-right-radius: 5vw;">
+            <div class="col-12 col-md-6 p-4 p-md-5 text-center text-md-start text-white">
+                <img src="logo.png" class="img-fluid mb-3" style="max-width: 100px;">
+                <p style="font-size: clamp(0.6rem, 2vw, 0.8rem);">
+                    Сайт сделан командой студентов 1 курса ИКТИБ ЮФУ<br>
+                    Этот сайт является междисциплинарным проектом
+                </p>
+            </div>
+            <div class="col-12 col-md-6 p-4 p-md-5 text-center text-md-end text-white" >
+                <p style="font-size: clamp(0.8rem, 2vw, 1rem);"><b>Контакты</b></p>
+                <p style="font-size: clamp(0.6rem, 2vw, 0.8rem);">+7 (XXX) XXX-XX-XX</p>
+                <p style="font-size: clamp(0.6rem, 2vw, 0.8rem);">info@viziq.ru</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const create_link=document.getElementById('create')
+    create_link.onclick = () =>  window.location='choice.html'
+    const go_reg=document.getElementById('reg')
+    go_reg.onclick = () =>  window.location='registration_window.html'
+    const go_choice=document.getElementById('bta')
+    go_choice.onclick = () =>  window.location='choice.html'
+</script>
+</html>
